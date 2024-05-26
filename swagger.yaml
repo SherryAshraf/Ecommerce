@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: My API
+  version: 1.0.0
+paths:
+  /api/examples:
+    get:
+      summary: Get all examples
+      # Add other GET /api/examples details here
+    post:
+      summary: Create a new example
+      # Add other POST /api/examples details here
+  /api/examples/{id}:
+    get:
+      summary: Get an example by ID
+      # Add other GET /api/examples/{id} details here
+    # Add PUT, DELETE /api/examples/{id} details here
